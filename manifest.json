@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "ZoomSlider",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Click to change zoom levels",
+    "default_icon": {
+      "16": "public/icon.png",
+      "32": "public/icon.png",
+      "48": "public/icon.png",
+      "128": "public/icon.png"
+    }
+  },
+  "icons": {
+    "16": "public/icon.png",
+    "32": "public/icon.png",
+    "48": "public/icon.png",
+    "128": "public/icon.png"
+  },
+  "permissions": [],
+  "background": {
+    "service_worker": "src/background/background.ts",
+    "type": "module"
+  },
+  "description": "Change zoom settings smoothly with a standard slider."
+}
