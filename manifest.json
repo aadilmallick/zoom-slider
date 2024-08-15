@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "ZoomSlider",
+  "name": "Zoom Slider",
   "version": "1.0.0",
   "action": {
     "default_popup": "index.html",
@@ -17,11 +17,6 @@
     "32": "public/icon.png",
     "48": "public/icon.png",
     "128": "public/icon.png"
-  },
-  "permissions": [],
-  "background": {
-    "service_worker": "src/background/background.ts",
-    "type": "module"
   },
   "description": "Change zoom settings smoothly with a standard slider."
 }
